@@ -1,0 +1,16 @@
+name: webtest
+version: 0.1.0
+
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of webtest
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    version: ~> 0.26.1
+  readline:
+    github: crystal-lang/crystal-readline
+    version: ~> 0.1.0
