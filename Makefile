@@ -9,3 +9,8 @@ listener:
 sender:
 	crystal run src/sender.cr
 .PHONY: sender
+
+deps:
+	shards install
+.PHONY: deps
+
