@@ -11,4 +11,4 @@ socket.on_close do |message|
   exit 1
 end
 
-  socket.run
+socket.run
